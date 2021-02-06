@@ -9,8 +9,8 @@
 #   https://stackoverflow.com/questions/7948494/whats-the-difference-between-a-python-module-and-a-python-package
 # requests, later presented -> pip install requests
 # wxPython - used to graphic interface for python programs -  
-# SciPy - SciPy.org - matathemic scientific calulations modue
-# pygame - for ganes
+# SciPy - SciPy.org - mathematics scientific calculations module
+# pygame - for games
 # sqlAlchemy module - used to make connections to databases -- 
 # google python 
 
