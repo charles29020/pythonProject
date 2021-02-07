@@ -15,6 +15,8 @@
 # google python 
 
 import matplotlib.pyplot as plt
+import numpy as np
+
 
 x = [1,2,3,4]
 y = [1500,1200,1100,1800]
@@ -22,6 +24,6 @@ y = [1500,1200,1100,1800]
 print(x)
 print(y)
 
-# plt.plot(x,y)
-# plt.show()
+plt.plot(x,y)
+plt.show()
 

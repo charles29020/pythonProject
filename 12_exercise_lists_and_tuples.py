@@ -5,6 +5,8 @@
 # import datetime
 # inport math
 
+people_list = ["Matthew","Mark","Luke","John"]
+
 months = ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
 print("len(months): ", len(months) )
 your_birthday = input("What is your birthday in DD-MM-YYYY format? ")
@@ -34,7 +36,7 @@ print(months[11])
 
 
 print("-------")
-people_list = ["John", "Paul", "Ringo", "George"]
+
 # print the people_list first
 print(people_list)
 

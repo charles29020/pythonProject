@@ -17,8 +17,19 @@ import pprint
 import random
 import html
 
+import matplotlib.pyplot as plt
+import numpy as np
+
 score_correct = 0
 score_incorrect = 0
+
+a_val = int
+b_val = int
+
+a_list = []
+print("a_list(type(a_list): ", type(a_list))
+b_list = []
+print("b_list(type(b_list): ", type(b_list))
 
 url = "https://opentdb.com/api.php?amount=1"
 endGame = ""
@@ -89,6 +100,55 @@ while endGame != "quit":
         print("Correct Answers: " + str(score_correct))
         print("Incorrect Answers: " + str(score_incorrect))
         print("###########################")  # no new line
+
+        a_val = score_correct
+        b_val = score_incorrect
+
+        print("--Lists Before--")
+        print(a_list)
+        print("a_list(type(a_list): ", type(a_list))
+        print(b_list)
+        print("b_list(type(b_list): ", type(b_list))
+        # a_list = a_list.append(a_val)
+        # b_list = b_list.append(b_val)
+
+        a_list.append(a_val)
+        b_list.append(b_val)
+
+        print("--Vals--")
+        print("a_val: ", a_val)
+        print("b_val: ", b_val)
+
+        print("--Lists After--")
+        print(a_list)
+        print(b_list)
+
+        # a_list = a_list.append(score_correct)
+        # b_list = b_list.append(score_incorrect)
+
+        x = [1,2,3,4]
+        y = [1500,1200,1100,1800]
+
+        print("a_list")
+        print(a_list)
+
+        print("b_list")
+        print(b_list)
+
+        # print(x)
+        # print(y)
+
+        # plt.plot(a_list, b_list)
+
+        x = a_list
+        y = b_list
+
+        print("len of x", len(x))
+        if len(x) > 4:
+            plt.plot(x, y)
+            plt.show()
+
+        
 
         endGame = input("\nPress enter to play again or type 'quit' to end the game. Any other keyed in value will cause the game to cobtinue. ").lower()
 
