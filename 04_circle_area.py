@@ -16,6 +16,7 @@
 # import the math function library
 
 import math
+import matplotlib.pyplot as plt
 
 r_in = float( input("Enter the Radius? ") )  # r_in is radius that is passed in for calculations
 area = math.pi * ( r_in ** 2 )
@@ -29,3 +30,5 @@ print("The area of the circle is", area )
 print("The area of the circle is", round(area, 2) )
 print("The circumference of the circle is", circumference )
 print("The circumference of the circle is", round(circumference, 2) )
+
+# plt.axis("equal")
