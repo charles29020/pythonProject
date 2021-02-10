@@ -31,6 +31,23 @@ print("a_list(type(a_list): ", type(a_list))
 b_list = []
 print("b_list(type(b_list): ", type(b_list))
 
+
+# chart configuration
+plt.ylabel("Number of Answer Type", fontweight = "bold")
+plt.xlabel("Correct or Incorrect Answers")
+plt.title("Quiz Results")
+
+# set position of the bar on the graph
+
+# set bar width
+barwidth = 0.25
+fig = plt.subplots(figsize = (12,8))
+
+# Adding XTicks
+###plt.xticks("Correct","Incorect")
+
+
+
 url = "https://opentdb.com/api.php?amount=1"
 endGame = ""
 
@@ -145,8 +162,10 @@ while endGame != "quit":
 
         print("len of x", len(x))
         if len(x) > 4:
-            plt.plot(x, y)
-            plt.show()
+           # plt.plot(x, y)
+
+           plt.bar(x,y)
+           plt.show()
 
         
 
