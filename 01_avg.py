@@ -1,5 +1,5 @@
 # 01_avg.py - calculate the average of 2 numbers and explore data types
-# lessons 3, 4, 5 and 6 combined
+# lessons 3, 4, 5 and 6 combined - xyz
 
 # lesson 3 - Statements
 # lesson 4 - Variables
