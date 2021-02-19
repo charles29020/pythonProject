@@ -4,3 +4,4 @@ pythonProject-workspace.code-workspace
 .idea
 .ipynb_checkpoints
 .vscode
+.DS_Store
