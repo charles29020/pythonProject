@@ -183,7 +183,7 @@ print(k_values)
 import matplotlib.pyplot as plt
 
 # to show inline, use the next line
-get_ipython().run_line_magic('matplotlib', 'inline')
+### get_ipython().run_line_magic('matplotlib', 'inline')
 
 # make a list from the k_values dictionary 
 plt.plot(list(k_values.keys()), list(k_values.values()))
