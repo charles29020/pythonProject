@@ -10,7 +10,7 @@
 # there are several solutions, for this code, I chose the \ character
 
 # ask user for his/her name
-me = input("Who are you? ")
+me = input("Who TF are you? ")
 print('hi ' + me)
 
 # get the average of 2 numbers
