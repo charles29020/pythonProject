@@ -4,4 +4,8 @@ pythonProject-workspace.code-workspace
 .idea
 .ipynb_checkpoints
 .vscode
+<<<<<<< HEAD
 .DS_Store
+=======
+.DS_Store
+>>>>>>> 549a4ea65438fafcf03c5f9dd5b1ea2ecdc73b1c
